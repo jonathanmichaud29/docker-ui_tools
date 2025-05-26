@@ -35,8 +35,8 @@ export default function ListExamples({}) {
             <Grid.Col key={`example-${index}`} span={{ base: 12, xs: 6 }}>
               <Card withBorder radius="md" p="md" className={classes.card}>
                 <Card.Section className={classes.section} mt="md">
-                  <Group justify="apart" align="center">
-                    <Title fw={500} order={2}>
+                  <Group justify="apart">
+                    <Title fw={500} order={2} align>
                       {title}
                     </Title>
                   </Group>

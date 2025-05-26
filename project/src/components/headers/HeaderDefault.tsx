@@ -21,10 +21,10 @@ export default function HeaderDefault() {
       href={link.link}
       className={classes.link}
       data-active={active === link.link || undefined}
-      onClick={(event) => {
+      /*onClick={(event) => {
         event.preventDefault();
         setActive(link.link);
-      }}
+      }}*/
     >
       {link.label}
     </a>
