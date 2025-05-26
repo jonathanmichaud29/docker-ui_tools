@@ -1,6 +1,6 @@
-import FooterDefault from "../components/Footers/FooterDefault";
-import HeaderDefault from "../components/Headers/HeaderDefault";
-import HeroHome from "../components/Heroes/HeroHome";
+import FooterDefault from "../components/footers/FooterDefault";
+import HeaderDefault from "../components/headers/HeaderDefault";
+import HeroHome from "../components/heroes/HeroHome";
 
 
 export default function Home() {

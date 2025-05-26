@@ -1,5 +1,5 @@
 import { Button, Container, Group, Text, Title } from '@mantine/core';
-import { Illustration } from '../components/SVGs/Illustration';
+import { Illustration } from '../components/svgs/Illustration';
 import classes from '../styles/NotFound.module.css';
 
 

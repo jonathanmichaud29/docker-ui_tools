@@ -1,5 +1,5 @@
 import { Button, Container, Text, Title } from '@mantine/core';
-import { Dots } from '../SVGs/Dots';
+import { Dots } from '../svgs/Dots';
 import classes from './HeroHome.module.css';
 
 export default function HeroHome() {
