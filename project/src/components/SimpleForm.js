@@ -1,9 +1,9 @@
 'use client'
 
 import { useState } from 'react'
-import styles from '../styles/ContactForm.module.scss'
+import styles from '../styles/SimpleForm.module.scss'
 
-export default function ContactForm() {
+export default function SimpleForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',

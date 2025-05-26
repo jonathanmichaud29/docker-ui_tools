@@ -72,6 +72,9 @@ ui-template-nextjs/
      --env-file ./docker/.env \
      --name nextjs-ui-tools_container \
      nextjs-ui-tools
+    
+   docker start nextjs-ui-tools_container
+   docker stop nextjs-ui-tools_container
    ```
 
 3. **Access the application:**

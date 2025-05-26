@@ -11,6 +11,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^8.0.1",
+    "@mantine/hooks": "^8.0.1",
+    "@tabler/icons-react": "^3.33.0",
+    "lucide-react": "^0.511.0",
     "next": "^15.1.8",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
@@ -24,6 +28,9 @@
     "@types/react-dom": "^19.1.5",
     "eslint": "^9.27.0",
     "eslint-config-next": "^15.1.8",
+    "postcss": "^8.5.3",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
     "sass": "^1.89.0",
     "typescript": "^5.8.3"
   }
