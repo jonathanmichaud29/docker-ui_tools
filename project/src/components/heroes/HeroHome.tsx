@@ -4,7 +4,7 @@ import classes from './HeroHome.module.css';
 
 export default function HeroHome() {
   return (
-    <Container className={classes.wrapper} size={1400}>
+    <Container className={classes.wrapper} size={1400} >
       <Dots className={classes.dots} style={{ left: 0, top: 0 }} />
       <Dots className={classes.dots} style={{ left: 60, top: 0 }} />
       <Dots className={classes.dots} style={{ left: 0, top: 140 }} />

@@ -67,6 +67,7 @@ ui-template-nextjs/
    docker build -f ./Dockerfile -t nextjs-ui-tools .
    docker run -it -p 3000:3000 \
      -v "$(pwd)/src:/app/src" \
+     -v "$(pwd)/public:/app/public" \
      -v "./.vscode:/app/.vscode" \
      -v "/app/node_modules" \
      --env-file ./docker/.env \
